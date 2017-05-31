@@ -19,7 +19,7 @@ example_dir = os.path.join(abs_path, "..", "..", "..", "..", "Examples", "Image"
 sys.path.append(example_dir)
 script_under_test = os.path.join(example_dir, "ConvNet_CIFAR10_DataAug_Distributed.py")
 
-from distributed_common import mpiexec_test, mpiexec_test
+from distributed_common import mpiexec_test, mpiexec_execute
 from prepare_test_data import prepare_CIFAR10_data
 
 base_path = prepare_CIFAR10_data()
